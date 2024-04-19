@@ -1,0 +1,14 @@
+{
+  "name": "na-lab",
+  "private": true,
+  "workspaces": [
+    "packages/**",
+    "apps/**"
+  ],
+  "scripts": {
+    "u": "pnpm -F @lab/ui",
+    "p": "pnpm -F @app/playground"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
