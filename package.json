@@ -8,7 +8,8 @@
   "scripts": {
     "ui": "pnpm -F @na-lab/ui",
     "play": "pnpm -F @na-lab/playground",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint:package": "npx sort-package-json"
   },
   "keywords": [],
   "license": "ISC",
