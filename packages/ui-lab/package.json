@@ -1,5 +1,5 @@
 {
-  "name": "@lab/ui-lab",
+  "name": "@na-lab/ui",
   "private": true,
   "version": "0.1.0",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
+    "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
