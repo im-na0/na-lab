@@ -1,16 +1,17 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
   env: {
     node: true,
     browser: true,
-    es6: true,
+    es2021: true,
   },
-  plugins: ['@typescript-eslint', 'import', 'prettier', 'simple-import-sort', 'unused-imports'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint', 'import', 'simple-import-sort', 'unused-imports', 'prettier'],
   extends: [
     'eslint:recommended',
-    'prettier',
+    'next',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
+    'prettier',
     'plugin:prettier/recommended',
   ],
   rules: {
