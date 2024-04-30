@@ -7,6 +7,7 @@
     "build-storybook": "storybook build",
     "dev": "vite",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:css": "stylelint --ignore-path .gitignore '**/*.(css|tsx|ts)' --fix",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006"
   },
@@ -19,6 +20,8 @@
     ]
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "react": "^18.2.0",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^18.2.0"
@@ -48,7 +51,12 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-unused-imports": "^3.1.0",
+    "postcss-styled-syntax": "^0.6.4",
     "storybook": "^8.0.8",
+    "stylelint": "^16.4.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-tsconfig-paths": "^4.3.2"
